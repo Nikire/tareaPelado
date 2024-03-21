@@ -32,3 +32,8 @@ body {
 	font-weight: bolder;
 	background: #eee;
 }
+
+.cuadrado {
+	display: flex;
+	border: 1px solid #000;
+}
