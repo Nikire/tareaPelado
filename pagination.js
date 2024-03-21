@@ -33,6 +33,23 @@ function checkPage() {
 	} else {
 		nextBtn.disabled = false;
 	}
+
+	parsedSections = sections.map((s, i) => {
+		if (i + 1 == page) {
+			s.style.display = 'block';
+		} else {
+			s.style.display = 'none';
+		}
+		return s;
+	});
 }
 
-export {page};
+var parsedSections = sections.map((s, i) => {
+	if (i + 1 == page) {
+		s.style.display = 'block';
+	} else {
+		s.style.display = 'none';
+	}
+	return s;
+});
+export {page, parsedSections};
