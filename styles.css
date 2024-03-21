@@ -3,3 +3,32 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	flex-direction: column;
+}
+
+.paginacion {
+	margin: 20px 0px 20px 0px;
+	min-width: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.page-btn {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-weight: bolder;
+	background: #eee;
+}
